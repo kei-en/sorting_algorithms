@@ -67,7 +67,7 @@ size_t partition(int *array, size_t size)
 		}
 	}
 
-	if (i + 1 != size -1)
+	if (i + 1 != size - 1)
 	{
 		swap(&array[i + 1], &array[size - 1]);
 		print_sort(array, size, 0);
